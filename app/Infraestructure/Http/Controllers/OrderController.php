@@ -19,7 +19,7 @@ class OrderController extends Controller
 
      $sendMail = Mail::to('jon@snow.com')->queue(new OrderMail($order));
 
-      return response()->json('ok');
+      return response()->json('ok fine');
 
     }
 }
